@@ -26,7 +26,7 @@
 ## Team Members of cyphen are:
 
 - Anish prashun
-- Gautam kumar raiyou
+- Gautam kumar rai
 - kumar Deepnashu
 - Vikrant singh
 
