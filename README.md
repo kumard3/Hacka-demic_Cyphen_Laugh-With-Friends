@@ -1,3 +1,35 @@
+# [LAUGH WITH FRIENDS](https/google.com)
+
+### By team _*Cyphen*_
+
+---
+
+> Laugh with Friends is created under _Lockdown_Laughter_ Track of Hack in the North.
+
+- Laugh with Friends is a react based application that will help you to connect with your friends in minute, as if you are with them
+  all the time :
+
+1. Video Call: You can do video calls with your friends.
+2. Chat: Live chats.
+3. Memes: Funny jokes and memes at your fingertips.
+
+- You'll like this application as it is user friendly , the user interface is awesome and eye soothing and also because of this pandemic situation
+  you are like in long distance relationship with your friends it's time to reduce it ;) .
+
+## FEATURES :
+
+- Real time video calls
+- Memes section
+- Real time chat section
+- Combined in a interactive U.I
+
+## Team Members of cyphen are:
+
+- Anish prashun
+- Gautam kumar raiyou
+- kumar Deepnashu
+- Vikrant singh
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
