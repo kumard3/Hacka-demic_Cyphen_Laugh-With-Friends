@@ -5,6 +5,7 @@ import "./Styles/app.scss";
 import CreateRoom from "./routes/CreateRoom";
 import Room from "./routes/Room";
 import React from "react";
+import Home from "./Components/Home";
 
 // import { useEffect, useState } from "react";
 function App() {
@@ -14,9 +15,13 @@ function App() {
         <Switch>
           <Route path="/video" exact component={CreateRoom} />
           <Route path="/room/:roomID" component={Room} />
-          <Route path="/">
+          <Route path="/meme">
             <SideBar />
             <Memes />
+          </Route>
+          <Route>
+            <SideBar />
+            <Home />
           </Route>
         </Switch>
       </Router>

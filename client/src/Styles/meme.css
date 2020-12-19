@@ -1,0 +1,26 @@
+.meme {
+  height: 95vh;
+  width: 80vw;
+  border-radius: 25px;
+  overflow: scroll;
+  overflow-x: hidden;
+  align-content: center;
+  justify-content: center;
+}
+
+.meme-container {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.card-content {
+  margin: 5px;
+  padding: 10px;
+  height: 45vh;
+  width: 35vw;
+}
+.image {
+  height: 35vh;
+  width: 25vw;
+}
