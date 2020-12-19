@@ -1,0 +1,41 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  background: #202731;
+  border-radius: 25px 0px 0px 25px;
+  height: 95vh;
+  width: 10vw;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 112.094px;
+}
+.icon2 {
+  width: 60px;
+  height: 60px;
+  filter: invert(1);
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+}
+.sidebar-icons {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10em;
+  margin-bottom: 10em;
+}
+.icon1 {
+  width: 63px;
+  height: 63px;
+}
+.active {
+  border-bottom: 2px solid white;
+}

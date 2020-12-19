@@ -1,0 +1,11 @@
+.meme{
+    display: flex;
+}
+.card{
+    border-radius: 1px solid white;
+}
+
+.image{
+    width: 20vw;
+    /* height: 10vh; */
+}
