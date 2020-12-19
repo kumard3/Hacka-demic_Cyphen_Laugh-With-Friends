@@ -7,4 +7,26 @@
   background: #ffffff;
   border-radius: 25px;
   font-size: 2rem;
+  background: #191b1c;
+  border-left: azure solid 2px;
+}
+.home-content {
+  display: flex;
+  //   flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 70%;
+  }
+}
+
+.home-outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

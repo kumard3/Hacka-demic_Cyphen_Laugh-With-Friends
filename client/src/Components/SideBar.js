@@ -5,7 +5,7 @@ import Messaging from "../images/messaging.png";
 import Nitendo from "../images/nitendo.png";
 import Video from "../images/video.png";
 import Home from "../images/home.png";
-
+import Play from "../images/play.png";
 const SideBar = () => {
   return (
     <div className="sidebar">
@@ -21,6 +21,9 @@ const SideBar = () => {
         </NavLink>
         <NavLink to="/games" activeClassName="active">
           <img src={Nitendo} alt="" className="icon" />
+        </NavLink>
+        <NavLink to="/play" activeClassName="active">
+          <img src={Play} alt="" className="icon" />
         </NavLink>
         <NavLink to="/video" activeClassName="active">
           <img src={Video} alt="" className="icon1" />

@@ -6,6 +6,7 @@ import CreateRoom from "./routes/CreateRoom";
 import Room from "./routes/Room";
 import React from "react";
 import Home from "./Components/Home";
+import Youtube from "./Components/Youtube";
 
 // import { useEffect, useState } from "react";
 function App() {
@@ -19,7 +20,11 @@ function App() {
             <SideBar />
             <Memes />
           </Route>
-          <Route>
+          <Route path="/play">
+            <SideBar />
+            <Youtube />
+          </Route>
+          <Route path="/">
             <SideBar />
             <Home />
           </Route>

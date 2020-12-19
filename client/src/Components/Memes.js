@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import MemeImage from "../images/Meme.jpeg";
-// import MemeContainer from "./Containers/MemeContainer";
-import "./meme.css"
+
 const Memes = () => {
   const [memes, setMemes] = useState([]);
   const url =
@@ -18,19 +16,17 @@ const Memes = () => {
   }, [url]);
   return (
     <div className="meme">
-      <div className="main-meme">      <div className="meme-container">
-        {memes.map((image) => (
-          <div className="card-content">         
-            <img src={image.img} alt="avatar" className="image"/>
-            
-          </div>
-        ))} 
-       
-        
-        </div></div>
-
+      <div className="main-meme">
+        {" "}
+        <div className="meme-container">
+          {memes.map((image) => (
+            <div className="card-content">
+              <img src={image.img} alt="avatar" className="image" />
+            </div>
+          ))}
+        </div>
       </div>
-    
+    </div>
   );
 };
 
